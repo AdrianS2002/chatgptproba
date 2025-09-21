@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrightSide Presentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="navbar">
+      <div class="logo">BrightSide</div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-controls="primary-navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Creative Presentation Studio</p>
+      <h1>Present your ideas with clarity and confidence.</h1>
+      <p class="subtitle">We craft visually stunning, story-driven presentations that help teams win pitches, inspire audiences, and move ideas forward.</p>
+      <div class="cta-group">
+        <a class="btn primary" href="#contact">Start a project</a>
+        <a class="btn secondary" href="#solutions">Explore services</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about" id="about">
+      <div class="section-heading">
+        <span class="section-eyebrow">Why BrightSide?</span>
+        <h2>Storytelling meets design excellence.</h2>
+        <p>We blend compelling narratives with premium visuals so your message stays with the audience long after the last slide.</p>
+      </div>
+      <div class="about-grid">
+        <article class="about-card">
+          <h3>Strategic storytelling</h3>
+          <p>Every presentation starts with research and a clear narrative arc. We map key moments that keep your audience focused on what matters.</p>
+        </article>
+        <article class="about-card">
+          <h3>Design that performs</h3>
+          <p>We transform complex information into elegant slides that are easy to digest, memorable, and aligned with your brand.</p>
+        </article>
+        <article class="about-card">
+          <h3>Lightning-fast delivery</h3>
+          <p>With a proven process, we meet ambitious deadlines without compromising on quality or attention to detail.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="solutions" id="solutions">
+      <div class="section-heading">
+        <span class="section-eyebrow">Services</span>
+        <h2>Flexible presentation solutions for every stage.</h2>
+        <p>From pitch decks to keynote events, we tailor each engagement to your goals and audience.</p>
+      </div>
+      <div class="solution-grid">
+        <article class="solution-card">
+          <h3>Pitch deck sprint</h3>
+          <p>Investor-ready decks crafted in as little as five business days, complete with market insights and storytelling support.</p>
+          <ul>
+            <li>Competitive analysis snapshot</li>
+            <li>Brand-aligned visuals</li>
+            <li>Speaker notes and talking points</li>
+          </ul>
+        </article>
+        <article class="solution-card">
+          <h3>Conference keynote</h3>
+          <p>High-impact visuals for executive keynotes, designed to deliver clarity on stage and across hybrid formats.</p>
+          <ul>
+            <li>Motion-ready graphics</li>
+            <li>Stage-tested layout system</li>
+            <li>On-call design refinements</li>
+          </ul>
+        </article>
+        <article class="solution-card">
+          <h3>Sales enablement</h3>
+          <p>Modular presentation templates and toolkits that empower teams to customize stories for every customer.</p>
+          <ul>
+            <li>Editable template library</li>
+            <li>Training and onboarding resources</li>
+            <li>Analytics integration guidance</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="section-heading">
+        <span class="section-eyebrow">Our process</span>
+        <h2>Collaborative steps that keep projects moving forward.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-step">
+          <div class="step-number">01</div>
+          <h3>Discover</h3>
+          <p>We unpack your objectives, audience, and existing assets to find the thread that ties the story together.</p>
+        </div>
+        <div class="timeline-step">
+          <div class="step-number">02</div>
+          <h3>Design</h3>
+          <p>Our team builds mood boards, slide layouts, and data visualizations that align with your brand voice.</p>
+        </div>
+        <div class="timeline-step">
+          <div class="step-number">03</div>
+          <h3>Polish</h3>
+          <p>We iterate quickly, perfect transitions, and prep speaker support materials so you can rehearse with confidence.</p>
+        </div>
+        <div class="timeline-step">
+          <div class="step-number">04</div>
+          <h3>Launch</h3>
+          <p>The final deck ships with a tailored rollout plan, training session, and optional live-event support.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Impact metrics">
+      <div class="stat-card">
+        <span class="stat-number" data-target="320">0</span>
+        <p>Presentations delivered</p>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="58">0</span>
+        <p>Industries served</p>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="94">0</span>
+        <p>Client satisfaction score</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-heading">
+        <span class="section-eyebrow">Get in touch</span>
+        <h2>Ready to illuminate your next presentation?</h2>
+        <p>Share a few details about your project and we'll schedule a discovery call within 24 hours.</p>
+      </div>
+      <form class="contact-form">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Alex Morgan" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="alex@example.com" required>
+        </div>
+        <div class="form-field">
+          <label for="project">Project details</label>
+          <textarea id="project" name="project" placeholder="Tell us about your goals and timeline" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn primary">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> BrightSide Studio. Crafted with clarity.</p>
+    <button class="btn tertiary" id="modeToggle" type="button" aria-pressed="false">Toggle dark mode</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
